@@ -1,0 +1,82 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.app {
+  height: 150vh;
+  box-shadow: 1px 1px 1px 1px;
+  background: grey;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.app h1 {
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  box-shadow: 0px 0px 3px 0px black;
+}
+
+.balance-container {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: x-large;
+  font-style: italic;
+}
+
+.cashflow-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.cashflow-container #income {
+  border: solid black 1px;
+  background-color: black;
+  font-size: larger;
+  font-style: italic;
+}
+
+.cashflow-container #expense {
+  border: solid black 1px;
+  background-color: black;
+  font-size: larger;
+  font-style: italic;
+}
+.income-container {
+  padding: 5px;
+}
+
+#income {
+  color: green;
+}
+
+#expense {
+  color: red;
+}
+
+.transaction-container {
+  padding: 10px;
+}
